@@ -6,9 +6,7 @@ import "./App.css";
 class App extends Component {
   state = {
     strikes: 0,
-    balls: 0,
-    fouls: 0,
-    hits: 0
+    balls: 0
   };
 
   reset = () => {
